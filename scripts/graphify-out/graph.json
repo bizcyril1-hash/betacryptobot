@@ -1,0 +1,254 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "analyze_bitcoin.py",
+      "file_type": "code",
+      "source_file": "analyze_bitcoin.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "analyze_bitcoin.py",
+      "community_name": "analyze_bitcoin.py",
+      "id": "analyze_bitcoin"
+    },
+    {
+      "label": "load_bitcoin_data()",
+      "file_type": "code",
+      "source_file": "analyze_bitcoin.py",
+      "source_location": "L13",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "load_bitcoin_data()",
+      "community_name": "analyze_bitcoin.py",
+      "id": "analyze_bitcoin_load_bitcoin_data"
+    },
+    {
+      "label": "calculate_simple_moving_average()",
+      "file_type": "code",
+      "source_file": "analyze_bitcoin.py",
+      "source_location": "L39",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "calculate_simple_moving_average()",
+      "community_name": "calculate_simple_moving_average",
+      "id": "analyze_bitcoin_calculate_simple_moving_average"
+    },
+    {
+      "label": "calculate_volatility()",
+      "file_type": "code",
+      "source_file": "analyze_bitcoin.py",
+      "source_location": "L53",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "calculate_volatility()",
+      "community_name": "generate_analysis_report",
+      "id": "analyze_bitcoin_calculate_volatility"
+    },
+    {
+      "label": "generate_analysis_report()",
+      "file_type": "code",
+      "source_file": "analyze_bitcoin.py",
+      "source_location": "L73",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "generate_analysis_report()",
+      "community_name": "generate_analysis_report",
+      "id": "analyze_bitcoin_generate_analysis_report"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "analyze_bitcoin.py",
+      "source_location": "L132",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "main()",
+      "community_name": "analyze_bitcoin.py",
+      "id": "analyze_bitcoin_main"
+    },
+    {
+      "label": "Charge les donnees Bitcoin depuis un fichier CSV.     Le fichier doit avoir les",
+      "file_type": "rationale",
+      "source_file": "analyze_bitcoin.py",
+      "source_location": "L14",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "charge les donnees bitcoin depuis un fichier csv.     le fichier doit avoir les",
+      "community_name": "analyze_bitcoin.py",
+      "id": "analyze_bitcoin_rationale_14"
+    },
+    {
+      "label": "Calcule la moyenne mobile simple sur une fen\u00eatre donn\u00e9e.",
+      "file_type": "rationale",
+      "source_file": "analyze_bitcoin.py",
+      "source_location": "L40",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "calcule la moyenne mobile simple sur une fenetre donnee.",
+      "community_name": "calculate_simple_moving_average",
+      "id": "analyze_bitcoin_rationale_40"
+    },
+    {
+      "label": "Calcule la volatilit\u00e9 (\u00e9cart-type des rendements) sur une fen\u00eatre donn\u00e9e.",
+      "file_type": "rationale",
+      "source_file": "analyze_bitcoin.py",
+      "source_location": "L54",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "calcule la volatilite (ecart-type des rendements) sur une fenetre donnee.",
+      "community_name": "generate_analysis_report",
+      "id": "analyze_bitcoin_rationale_54"
+    },
+    {
+      "label": "G\u00e9n\u00e8re un rapport d'analyse en remplissant le mod\u00e8le avec les r\u00e9sultats.",
+      "file_type": "rationale",
+      "source_file": "analyze_bitcoin.py",
+      "source_location": "L74",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "genere un rapport d'analyse en remplissant le modele avec les resultats.",
+      "community_name": "generate_analysis_report",
+      "id": "analyze_bitcoin_rationale_74"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "analyze_bitcoin.py",
+      "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "analyze_bitcoin",
+      "target": "analyze_bitcoin_calculate_simple_moving_average"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "analyze_bitcoin.py",
+      "source_location": "L53",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "analyze_bitcoin",
+      "target": "analyze_bitcoin_calculate_volatility"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "analyze_bitcoin.py",
+      "source_location": "L73",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "analyze_bitcoin",
+      "target": "analyze_bitcoin_generate_analysis_report"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "analyze_bitcoin.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "analyze_bitcoin",
+      "target": "analyze_bitcoin_load_bitcoin_data"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "analyze_bitcoin.py",
+      "source_location": "L132",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "analyze_bitcoin",
+      "target": "analyze_bitcoin_main"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "analyze_bitcoin.py",
+      "source_location": "L155",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "analyze_bitcoin_main",
+      "target": "analyze_bitcoin_load_bitcoin_data"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "analyze_bitcoin.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "analyze_bitcoin_rationale_14",
+      "target": "analyze_bitcoin_load_bitcoin_data"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "analyze_bitcoin.py",
+      "source_location": "L91",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "analyze_bitcoin_generate_analysis_report",
+      "target": "analyze_bitcoin_calculate_simple_moving_average"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "analyze_bitcoin.py",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "analyze_bitcoin_rationale_40",
+      "target": "analyze_bitcoin_calculate_simple_moving_average"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "analyze_bitcoin.py",
+      "source_location": "L97",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "analyze_bitcoin_generate_analysis_report",
+      "target": "analyze_bitcoin_calculate_volatility"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "analyze_bitcoin.py",
+      "source_location": "L54",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "analyze_bitcoin_rationale_54",
+      "target": "analyze_bitcoin_calculate_volatility"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "analyze_bitcoin.py",
+      "source_location": "L158",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "analyze_bitcoin_main",
+      "target": "analyze_bitcoin_generate_analysis_report"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "analyze_bitcoin.py",
+      "source_location": "L74",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "analyze_bitcoin_rationale_74",
+      "target": "analyze_bitcoin_generate_analysis_report"
+    }
+  ],
+  "hyperedges": []
+}

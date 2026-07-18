@@ -1,0 +1,307 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "graphify-outdetect.py",
+      "file_type": "code",
+      "source_file": "graphify-outdetect.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "graphify_outdetect",
+      "community": 20,
+      "norm_label": "graphify-outdetect.py"
+    },
+    {
+      "label": "btc_v5_inferences_marketcontext_price.csv[.gz]",
+      "type": "file",
+      "source_file": "README.md",
+      "file_type": "concept",
+      "id": "file_btc_v5_inferences_marketcontext_price.csv[.gz]",
+      "community": 18,
+      "norm_label": "btc_v5_inferences_marketcontext_price.csv[.gz]"
+    },
+    {
+      "label": "btc_v5_shift0_only.csv[.gz]",
+      "type": "file",
+      "source_file": "README.md",
+      "file_type": "concept",
+      "id": "file_btc_v5_shift0_only.csv[.gz]",
+      "community": 19,
+      "norm_label": "btc_v5_shift0_only.csv[.gz]"
+    },
+    {
+      "label": "Fichiers",
+      "type": "section",
+      "source_file": "README.md",
+      "file_type": "concept",
+      "id": "section_fichiers",
+      "community": 25,
+      "norm_label": "fichiers"
+    },
+    {
+      "label": "Couverture temporelle",
+      "type": "section",
+      "source_file": "README.md",
+      "file_type": "concept",
+      "id": "section_couverture_temporelle",
+      "community": 24,
+      "norm_label": "couverture temporelle"
+    },
+    {
+      "label": "Convention de temps (CRITIQUE \u2014 no-leak)",
+      "type": "section",
+      "source_file": "README.md",
+      "file_type": "concept",
+      "id": "section_convention_de_temps",
+      "community": 23,
+      "norm_label": "convention de temps (critique \u2014 no-leak)"
+    },
+    {
+      "label": "bar_shift_minutes (\u00e0 lire avant d'utiliser le fichier complet)",
+      "type": "section",
+      "source_file": "README.md",
+      "file_type": "concept",
+      "id": "section_bar_shift_minutes",
+      "community": 21,
+      "norm_label": "bar_shift_minutes (a lire avant d'utiliser le fichier complet)"
+    },
+    {
+      "label": "Colonnes",
+      "type": "section",
+      "source_file": "README.md",
+      "file_type": "concept",
+      "id": "section_colonnes",
+      "community": 22,
+      "norm_label": "colonnes"
+    },
+    {
+      "label": "Notes de qualit\u00e9",
+      "type": "section",
+      "source_file": "README.md",
+      "file_type": "concept",
+      "id": "section_notes_de_qualite",
+      "community": 26,
+      "norm_label": "notes de qualite"
+    },
+    {
+      "label": "Sous-mod\u00e8les V5 (le c\u0153ur)",
+      "type": "subsection",
+      "source_file": "README.md",
+      "file_type": "concept",
+      "id": "subsection_sous_modeles_v5",
+      "community": 29,
+      "norm_label": "sous-modeles v5 (le c\u0153ur)"
+    },
+    {
+      "label": "market_context (mc_*) \u2014 91 champs, join asof",
+      "type": "subsection",
+      "source_file": "README.md",
+      "file_type": "concept",
+      "id": "subsection_market_context",
+      "community": 27,
+      "norm_label": "market_context (mc_*) \u2014 91 champs, join asof"
+    },
+    {
+      "label": "Prix (candles 1 min)",
+      "type": "subsection",
+      "source_file": "README.md",
+      "file_type": "concept",
+      "id": "subsection_prix",
+      "community": 28,
+      "norm_label": "prix (candles 1 min)"
+    },
+    {
+      "label": "data_timestamp",
+      "type": "concept",
+      "source_file": "README.md",
+      "file_type": "concept",
+      "id": "concept_data_timestamp",
+      "community": 3,
+      "norm_label": "data_timestamp"
+    },
+    {
+      "label": "inference_time",
+      "type": "concept",
+      "source_file": "README.md",
+      "file_type": "concept",
+      "id": "concept_inference_time",
+      "community": 11,
+      "norm_label": "inference_time"
+    },
+    {
+      "label": "bar_shift_minutes",
+      "type": "concept",
+      "source_file": "README.md",
+      "file_type": "concept",
+      "id": "concept_bar_shift_minutes",
+      "community": 0,
+      "norm_label": "bar_shift_minutes"
+    },
+    {
+      "label": "directional",
+      "type": "concept",
+      "source_file": "README.md",
+      "file_type": "concept",
+      "id": "concept_directional",
+      "community": 5,
+      "norm_label": "directional"
+    },
+    {
+      "label": "trend_confirm",
+      "type": "concept",
+      "source_file": "README.md",
+      "file_type": "concept",
+      "id": "concept_trend_confirm",
+      "community": 17,
+      "norm_label": "trend_confirm"
+    },
+    {
+      "label": "exhaustion",
+      "type": "concept",
+      "source_file": "README.md",
+      "file_type": "concept",
+      "id": "concept_exhaustion",
+      "community": 6,
+      "norm_label": "exhaustion"
+    },
+    {
+      "label": "fusion_simple",
+      "type": "concept",
+      "source_file": "README.md",
+      "file_type": "concept",
+      "id": "concept_fusion_simple",
+      "community": 10,
+      "norm_label": "fusion_simple"
+    },
+    {
+      "label": "market_context",
+      "type": "concept",
+      "source_file": "README.md",
+      "file_type": "concept",
+      "id": "concept_market_context",
+      "community": 12,
+      "norm_label": "market_context"
+    },
+    {
+      "label": "close_at_inference",
+      "type": "concept",
+      "source_file": "README.md",
+      "file_type": "concept",
+      "id": "concept_close_at_inference",
+      "community": 1,
+      "norm_label": "close_at_inference"
+    },
+    {
+      "label": "ret_fwd_15m",
+      "type": "concept",
+      "source_file": "README.md",
+      "file_type": "concept",
+      "id": "concept_ret_fwd_15m",
+      "community": 13,
+      "norm_label": "ret_fwd_15m"
+    },
+    {
+      "label": "ret_fwd_1h",
+      "type": "concept",
+      "source_file": "README.md",
+      "file_type": "concept",
+      "id": "concept_ret_fwd_1h",
+      "community": 14,
+      "norm_label": "ret_fwd_1h"
+    },
+    {
+      "label": "ret_fwd_4h",
+      "type": "concept",
+      "source_file": "README.md",
+      "file_type": "concept",
+      "id": "concept_ret_fwd_4h",
+      "community": 16,
+      "norm_label": "ret_fwd_4h"
+    },
+    {
+      "label": "ret_fwd_24h",
+      "type": "concept",
+      "source_file": "README.md",
+      "file_type": "concept",
+      "id": "concept_ret_fwd_24h",
+      "community": 15,
+      "norm_label": "ret_fwd_24h"
+    },
+    {
+      "label": "dir_net",
+      "type": "concept",
+      "source_file": "README.md",
+      "file_type": "concept",
+      "id": "concept_dir_net",
+      "community": 4,
+      "norm_label": "dir_net"
+    },
+    {
+      "label": "fus_net",
+      "type": "concept",
+      "source_file": "README.md",
+      "file_type": "concept",
+      "id": "concept_fus_net",
+      "community": 9,
+      "norm_label": "fus_net"
+    },
+    {
+      "label": "fus_entropy_score",
+      "type": "concept",
+      "source_file": "README.md",
+      "file_type": "concept",
+      "id": "concept_fus_entropy_score",
+      "community": 8,
+      "norm_label": "fus_entropy_score"
+    },
+    {
+      "label": "fus_directional_spread",
+      "type": "concept",
+      "source_file": "README.md",
+      "file_type": "concept",
+      "id": "concept_fus_directional_spread",
+      "community": 7,
+      "norm_label": "fus_directional_spread"
+    },
+    {
+      "label": "correlation dir_net <-> ret_fwd_4h",
+      "type": "concept",
+      "source_file": "README.md",
+      "file_type": "concept",
+      "id": "concept_correlation_dir_net_ret_fwd_4h",
+      "community": 2,
+      "norm_label": "correlation dir_net <-> ret_fwd_4h"
+    },
+    {
+      "label": "Colonnes des sous-mod\u00e8les V5",
+      "type": "table",
+      "source_file": "README.md",
+      "file_type": "concept",
+      "id": "table_sous_modeles_v5_colonnes",
+      "community": 32,
+      "norm_label": "colonnes des sous-modeles v5"
+    },
+    {
+      "label": "Colonnes du market_context",
+      "type": "table",
+      "source_file": "README.md",
+      "file_type": "concept",
+      "id": "table_market_context_colonnes",
+      "community": 30,
+      "norm_label": "colonnes du market_context"
+    },
+    {
+      "label": "Colonnes des prix",
+      "type": "table",
+      "source_file": "README.md",
+      "file_type": "concept",
+      "id": "table_prix_colonnes",
+      "community": 31,
+      "norm_label": "colonnes des prix"
+    }
+  ],
+  "links": [],
+  "hyperedges": []
+}
